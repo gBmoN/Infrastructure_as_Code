@@ -1,6 +1,7 @@
 # Infrastructure_as_Code
 ## User, Directory and Permissions Structure Creation Script
 - This project presents a script where all user infrastructure, user groups, directories and permissions will be created automatically. So when the script file is loaded from GitHub on new virtual machines, the environment is ready for use.
+- User password settings are programmed to be reset on first login.
 - By choice, in this project, the SHA-512 hash algorithm was used as a parameter (openssl passwd -6) for user password encryption. Other parameters can be checked in the help of the "openssl passwd" command:
 - -salt val           (Use provided salt)
 - -stdin              (Read passwords from stdin)
