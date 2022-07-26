@@ -5,7 +5,9 @@ mkdir /publico /adm /ven /sec
 echo "Done!!!"
 
 echo "Creating user groups...."
-groupadd GRP_ADM GRP_VEN GRP_SEC
+groupadd GRP_ADM
+groupadd GRP_VEN
+groupadd GRP_SEC
 echo "Done!!!"
 
 echo "Creating users for ADM group...."
